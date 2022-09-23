@@ -21,6 +21,8 @@ The python functions implemented in `pyne2001` simply call the NE2001 executable
 pip install pyne2001
 ```
 
+NB. it defaults to f77 if you don't have FC set, so you may want export FC=gfortran in your .bash_profile or some such if you don't have f77.
+
 To check that all went well, try importing the module and running the unit tests, you should see something like this:
 
 ```ipython

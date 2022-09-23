@@ -6,3 +6,4 @@ pyne2001/NE2001/bin/NE2001
 *.a
 *.egg-info
 dist
+*~
